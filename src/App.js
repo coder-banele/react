@@ -1,22 +1,18 @@
-import logo from './logo.svg';
+import { Cal } from './Cal';
 import './App.css';
+import { TodoWrapper } from './componets/TodoWrapper';
 
 export function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <h> sane is a great coder</h>
+        <Cal />
+        <TodoWrapper />
+        
+
+
       </header>
     </div>
   );
